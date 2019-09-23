@@ -1,2 +1,26 @@
+/* =============================== */
+/* ============ FONTS ============ */
+/* =============================== */
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700&display=swap");
+/* =============================== */
+/* ============= CSS ============= */
+/* =============================== */
 body {
-  background-color: #0000ff; }
+  margin: 0;
+  padding: 0;
+  background-color: #7452a3; }
+
+header {
+  color: #99f7e2; }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 60px; }
+    header nav h1 {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 36px;
+      font-weight: 600; }
+    header nav .menu-icon {
+      width: 36px;
+      height: auto; }

@@ -1,5 +1,7 @@
-$principal-color-text: #99f7e2;
+$main-color-text: #99f7e2;
 $header-and-footer-color: #7452a3;
+$titles-font: 'Libre Baskerville', serif;
+$text-font: 'Source Sans Pro', sans-serif;
 
 /* =============================== */
 /* ============ FONTS ============ */
@@ -9,9 +11,31 @@ $header-and-footer-color: #7452a3;
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700&display=swap');
 
 /* =============================== */
-/* ============ FONTS FAMILY ============ */
+/* ============= CSS ============= */
 /* =============================== */
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Libre Baskerville', serif;
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $header-and-footer-color;
+}
+header {
+    color: $main-color-text;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 60px;
+        h1 {
+            font-family: $text-font;
+            font-size: 36px;
+            font-weight: 600;
+        }
+        .menu-icon {
+            width:36px;
+            height: auto;
+        }
+    }
+}
 
 
