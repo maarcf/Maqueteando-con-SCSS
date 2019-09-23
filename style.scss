@@ -36,6 +36,36 @@ header {
             height: auto;
         }
     }
+    .header-info {
+        display: flex;
+        margin: 60px 40px;
+       
+        .main-info {
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+
+            h2 {
+                font-family: $titles-font;
+                font-size: 64px;
+                line-height: 1.5;
+            }
+            p {
+                font-family: $text-font;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 2;
+                color: #fff;
+            }
+        }
+
+        .slider-icon {
+            flex: 1;
+            width: 12px;
+            height: 155px;
+        }
+
+    }
 }
 
 
